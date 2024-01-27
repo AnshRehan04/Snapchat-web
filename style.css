@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: yellow;
+    
+}
+
+#sc{
+    width: 700px;
+    height: 700px;
+    position: relative;
+    left: 40%;
+    margin-top: 1%;
+}
+#logo{
+    margin-top: 17px;
+    margin-left: 15px;
+}
+#btn-pic{
+    width: 2em;
+}
+#input-field{
+    height: 2rem;
+    border-radius:50px;
+    margin-left: 26px;
+    padding-left: 20px;
+    position: absolute;
+    margin-top: 17px;
+}
+.srh{
+    padding-left: 20px;
+    position: absolute;
+    padding-top: px;
+}
+
+
+#links{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 40%;
+    top: 1%;
+    /* justify-content: space-evenly; */
+}
+li{
+    margin: 20px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.para{
+    display: inline;
+    position: absolute;
+    left: 10%;
+    top: 37%;
+}
+h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4rem;
+    padding-left: 50px;
+    margin-top: -30px;
+}
+#chat1{
+    padding-top: 30px;
+    padding-left: 50px;
+    font-weight: 500;
+    
+}
+#chat2{
+    padding-top: 30px;
+    padding-left: 85px;
+    font-weight: 500;
+   
+}
+
+.buttons-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+    gap: 15px;
+    margin-left: 50px;
+  }
+  span{
+    height: 20px;
+    padding-top: 6px;
+    font-size: 15px;
+  }
+  .apple-login-button {
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    gap: 5px;
+  }
+  
+  .apple-login-button {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+  }
+  
+  footer{
+    background-color: white;
+
+  }
+
+#btn{
+    display: inline-block;
+}
+
+.microsoft-button {
+    display: inline-flex;
+    position: absolute;
+    left: 86%;
+    align-items: center;
+    padding: 10px 20px;
+    width: 36%;
+    /* margin-left: 20px; */
+    height: 27px;
+    background-color: black;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    /* transition: background-color 0.3s ease; */
+}
+
+
+
+.microsoft-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+p{
+    position: relative;
+    left: 104%;
+    bottom: 3rem;
+}
+select{
+    width: 10%;
+    margin-left: 19px;
+    border-radius: 5px;
+    height: 30px;
+}
+#f1{
+    margin-left: 18%;
+    padding-top: 20px;
+}
+#f2{
+    margin-left: 35%;
+    position: relative;
+    bottom: 270px;
+}
+#f3{
+    margin-left: 55%;
+    position: relative;
+    bottom: 430px;
+}
+#f4{
+    margin-left: 75%;
+    position: relative;
+    bottom: 650px;
+}
+footer{
+    height: 300px;
+}
+#l1{
+    margin-top: -10px;
+}
+#last{
+    background-color: #262626;
+    width: 100%;
+    height: 120px;
+    /* margin-bottom: 20px; */
+}
+#last ul a{
+    color: white;
+}
+#last a{
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.last{
+    /* position: relative; */
+    display: flex;
+    margin-left: 16%;
+}
+
+.login{
+    background-color: #000;
+    color: white;
+    height: 30px;
+    border-radius:12px;
+    width: 100px;
+    margin-left: 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+.login1{
+    background-color: #000;
+    color: white;
+    height: 30px;
+    border-radius:12px;
+    width: 100px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.btns{
+    display: flex;
+    margin-left: 320px;
+    padding-top: 10px;
+}
+.fa-pause{
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+
+#dot{
+    border-radius: 50%;
+    
+}
+
+#srch{
+    padding-left: 29.6px;
+    padding-top: 24px;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+}
+#end{
+    position: absolute;
+    background-color: black;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    background-color: yellow;
+    height: 60px;
+}
+#text{
+    color: white;
+    font-size: 17px;
+    /* font-weight: 1200; */
+    line-height:17px
+}
+
+.svg{
+    position: absolute;
+    left: 32%;
+}
+
+#end a{
+    color: yellow;
+    border-bottom: 2px solid yellow;
+    
+}
+#links a{
+    color: black;
+}
+.DesktopHomepage_myAITag__Xgc2f{
+    background-color: #0FADFF;
+    border-radius: 6px;
+    color: white;
+    /* font-size: 10px; */
+    position: relative;
+    top: 50px;
+    left: 46px;
+    margin-right: 5px;
+    padding:3px 5px;
+    font-size: 10px;
+    line-height: normal;
+    cursor: pointer;
+}
